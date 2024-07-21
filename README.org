@@ -1,4 +1,4 @@
-#+html: <a href="https://unsplash.com/pt-br/fotografias/canoa-preta-no-solo-coberto-de-neve-perto-de-arvores-durante-o-dia-gL_Vcsv1aeI"><img src="media/frozen-pond.jpg" width="7%"></a>
+#+html: <a href="https://unsplash.com/pt-br/fotografias/canoa-preta-no-solo-coberto-de-neve-perto-de-arvores-durante-o-dia-gL_Vcsv1aeI"><img src="media/frozen-pond.jpg" width="7%" align="right"></a>
 *** Frozen Pond
 ****** My current NixOS flake/dotfiles.
 -----
