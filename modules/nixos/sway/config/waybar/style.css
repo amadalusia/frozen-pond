@@ -1,0 +1,41 @@
+@import "colours.css";
+
+* {
+    font-family: monospace;
+    font-size: 15px;
+}
+
+window#waybar {
+    background-color: transparent;
+    color: @fg;
+    background-color: @bg;
+    border-bottom: 2px solid @fg;
+}
+
+#custom-date,
+#custom-time,
+#battery,
+#cpu,
+#wireplumber,
+#backlight,
+#workspaces,
+#memory,
+#tray {
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+#workspaces button {
+    color: @fg;
+    padding: 0px 7px;
+}
+
+#workspaces button:hover {
+    color: @bg;
+    background: @fg;
+    border: none;
+    box-shadow: inherit;
+    text-shadow: inherit;
+}

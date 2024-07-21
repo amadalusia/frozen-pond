@@ -1,0 +1,4 @@
+import = [
+  "~/.config/alacritty/colours.conf",
+  "~/.config/alacritty/window.conf"
+]

@@ -1,0 +1,59 @@
+{
+	"name": "toppie",
+	"layer": "top",
+	"position": "top",
+	"height": 36,
+	"modules-left": [
+		"custom/time",
+		"custom/date"
+	],
+	"modules-center": [
+		"sway/workspaces"
+	],
+	"modules-right": [
+		"battery",
+		"memory",
+		"cpu",
+		"wireplumber",
+		"backlight",
+		"tray"
+	],
+	"custom/time": {
+		"exec": "date '+%H:%M:%S'",
+		"interval": 1,
+		"format": " {}"
+	},
+	"custom/date": {
+		"exec": "date '+%a, %e %b %Y'",
+		"interval": 1,
+		"format": " {}"
+	},
+	"backlight": {
+		"device": "intel_backlight",
+		"format": "{icon} {percent}%",
+		"format-icons": ["", ""]
+	},
+	"battery": {
+		"format": "{icon} {capacity}%",
+		"format-icons": ["", "", "", "", ""]
+	},
+	"cpu": {
+		"interval": 2,
+    		"format": " {}%",
+    		"max-length": 10
+	},
+	"wireplumber": {
+		"format": "{icon} {volume}%",
+    		"format-muted": "",
+    		"on-click": "helvum",
+    		"format-icons": ["", "", ""]
+	},
+	"memory": {
+		"interval": 2,
+		"format": " {percentage}%",
+	},
+	"tray": {
+		"icon-size": 15,
+		"spacing": 10
+	}
+}
